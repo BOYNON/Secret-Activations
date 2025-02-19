@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Secret Activations</title>
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Google Font: Orbitron -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Pre-screen Modal for Website View Code -->
+  <div id="view-code-modal" class="modal">
+    <div class="modal-content">
+      <h2>🔹 SYSTEM MESSAGE 🔹</h2>
+      <p>Enter the system access code</p>
+      <input type="text" id="viewCodeInput" placeholder="Enter access code" autocomplete="off" />
+      <span id="submitText" onclick="checkViewCode()">Submit</span>
+      <p id="viewCodeMessage"></p>
+    </div>
+  </div>
+  
+  <!-- Main Header -->
+  <header>
+    <h2>Activation Portal</h2>
+  </header>
+  
+  <!-- Main Container -->
+  <div class="container">
+    <h1 class="fade-in">Activate Your App</h1>
+    <p class="fade-in">Select an app and enter your activation code to get access.</p>
+    
+    <!-- Animated Icons Sliding In -->
+    <div class="side-icon left-icon">
+      <i class="fa-solid fa-mobile-screen-button"></i>
+    </div>
+    <div class="side-icon right-icon">
+      <i class="fa-solid fa-cloud-arrow-down"></i>
+    </div>
+    
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab" id="tab-app1" onclick="switchTab('app1')">Spotify</button>
+      <button class="tab" id="tab-app2" onclick="switchTab('app2')">Youtube Music</button>
+      <button class="tab" id="tab-app3" onclick="switchTab('app3')">Yotube</button>
+      <button class="tab" id="tab-full" onclick="switchTab('full')">Full Package</button>
+    </div>
+    
+    <!-- Activation Form (Hidden until a tab is selected) -->
+    <div id="activation-form" class="hidden">
+      <input type="text" id="code" placeholder="Enter Activation Code" autocomplete="off" />
+      <span id="submitTextForm" onclick="submitCode()">Submit</span>
+      <p id="message"></p>
+    </div>
+    
+    <!-- Extra Info Below the Box -->
+    <p class="extra-info fade-in">After activation, you will receive your download link.</p>
+  </div>
+  
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Secret Activations. All rights reserved.</p>
+    <p class="extra-info fade-in">The Reuse of the File is STRICTLY Prohibited!</p>
+  </footer>
+</body>
+</html>
