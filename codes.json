@@ -1,0 +1,102 @@
+{
+    "SFA0101": {
+        "used": false,
+        "app": "app1",
+        "download_link": "app1.zip"
+    },
+    "SFA0202": {
+        "used": false,
+        "app": "app1",
+        "download_link": "app1.zip"
+    },
+    "SFA0303": {
+        "used": false,
+        "app": "app1",
+        "download_link": "app1.zip"
+    },
+    "SFA0404": {
+        "used": false,
+        "app": "app1",
+        "download_link": "app1.zip"
+    },
+    "SFA0505": {
+        "used": false,
+        "app": "app1",
+        "download_link": "app1.zip"
+    },
+    "YMF0101": {
+        "used": false,
+        "app": "app2",
+        "download_link": "app2.zip"
+    },
+    "YMF0202": {
+        "used": false,
+        "app": "app2",
+        "download_link": "app2.zip"
+    },
+    "YMF0303": {
+        "used": false,
+        "app": "app2",
+        "download_link": "app2.zip"
+    },
+    "YMF0404": {
+        "used": false,
+        "app": "app2",
+        "download_link": "app2.zip"
+    },
+    "YMF0505": {
+        "used": false,
+        "app": "app2",
+        "download_link": "app2.zip"
+    },
+    "YTF0101": {
+        "used": false,
+        "app": "app3",
+        "download_link": "app3.zip"
+    },
+    "YTF0202": {
+        "used": false,
+        "app": "app3",
+        "download_link": "app3.zip"
+    },
+    "YTF0303": {
+        "used": false,
+        "app": "app3",
+        "download_link": "app3.zip"
+    },
+    "YTF0404": {
+        "used": false,
+        "app": "app3",
+        "download_link": "app3.zip"
+    },
+    "YTF0505": {
+        "used": false,
+        "app": "app3",
+        "download_link": "app3.zip"
+    },
+    "FP0101": {
+        "used": false,
+        "app": "full",
+        "download_link": "fullpackage.zip"
+    },
+    "FP0202": {
+        "used": false,
+        "app": "full",
+        "download_link": "fullpackage.zip"
+    },
+    "FP0303": {
+        "used": false,
+        "app": "full",
+        "download_link": "fullpackage.zip"
+    },
+    "FP0404": {
+        "used": false,
+        "app": "full",
+        "download_link": "fullpackage.zip"
+    },
+    "FP0505": {
+        "used": false,
+        "app": "full",
+        "download_link": "fullpackage.zip"
+    }
+}
